@@ -18,6 +18,9 @@ jobs:
 
     - name: Check out Apache Tomcat
       uses: actions/checkout@v2
+      with:
+         repository: apache/tomcat
+         ref: master
       
 
     - name: Setup Java 9
